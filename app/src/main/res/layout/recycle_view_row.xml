@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/ImageView_row"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <EditText
+        android:id="@+id/userquestion"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:ems="10"
+        android:hint="Question"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+</LinearLayout>
